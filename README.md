@@ -12,6 +12,13 @@ $ sqlite3 데이터베이스이름.db
 > .quit
 ```
 
+## table 확인
+``` sql
+> .table
+> .table '%a'
+```
+
+
 ## 헤더 설정과 컬럼에 맞게 표기
 ``` sql
 > .headers on
@@ -20,6 +27,6 @@ $ sqlite3 데이터베이스이름.db
 
 ## pragma 설정 
 ``` sql
-> pragma table_info("table_name")
+> pragma table_info("table_name");
 > select * from pragma_table_info("table_name");
 ```
